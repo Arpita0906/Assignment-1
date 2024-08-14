@@ -9,8 +9,8 @@ Most Liked Users Table: Shows a table with user details including User ID, Name,
 Installation
 To get started with the project, follow these steps:
 1.Clone the Repository
-  git clone https://github.com/your-username/dashboard-project.git
-  cd dashboard-project
+  git clone (https://github.com/Arpita0906/Assignment-1)
+  cd webstep assignment
 2.Install Dependencies
   Make sure you have Node.js and npm installed. Run the following command to install the required dependencies:
   npm install
