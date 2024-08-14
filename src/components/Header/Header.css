@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-part1 {
+  color: orange;
+}
+
+.tabs {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media (max-width: 600px) {
+  .tabs .MuiTab-wrapper {
+    flex-direction: column;
+  }
+
+  .tabs .MuiTab-wrapper span {
+    display: none;
+  }
+
+  .user-info {
+    display: none;
+  }
+}
